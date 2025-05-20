@@ -14,6 +14,14 @@ public class Pedido_04 {
     private String cliente;
     private String hora;
     private float valor;
+    
+    public void hora(){
+    System.out.println("Na hora 21h00 da noite");
+    }
+    
+    public void cliente(){
+    System.out.println("Pelo cliente Pedro");
+    }
 
     public String getData() {
         return data;

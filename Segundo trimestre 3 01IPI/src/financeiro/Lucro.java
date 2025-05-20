@@ -14,6 +14,13 @@ public class Lucro {
     private float positivo;
     private String data;
     private float media;
+    
+    public void saldo(){
+    System.out.println("Meu saldo positivo é R$200 por dia");
+    }
+    public void media(){
+        System.out.println("Minha média é de R$500 por dia");
+    }
 
     public float getNegativo() {
         return negativo;

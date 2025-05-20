@@ -14,7 +14,12 @@ public class Caixa {
     private float saldoFinal;
     private float lucroDiario;
     private float saldoNegativo;
-
+    public void saldo(){
+    System.out.println("Meu saldo é 200");
+}
+    public void lucro(){
+    System.out.println("Meu lucro diario é de R$700.00 por dia");
+}
     public float getSaldoInicial() {
         return saldoInicial;
     }

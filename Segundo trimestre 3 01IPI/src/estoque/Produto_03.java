@@ -15,6 +15,14 @@ public class Produto_03 {
     private String empresa;
     private String usabilidae;
 
+    public void data(){
+    System.out.println("No dia 02/12/2019");
+    }
+    
+    public void empresa(){
+    System.out.println("Pela empresa KWD Automoveis");
+    }
+    
     public String getData() {
         return data;
     }

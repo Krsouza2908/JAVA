@@ -14,6 +14,14 @@ public class Primeiro {
     private float id;
     private int quantidadeDePedidos;
     private String primeiroPedido;
+    
+    public void nome(){
+    System.out.println("Pelo cliente Taylor");
+    }
+    
+    public void id(){
+    System.out.println("01");
+    }
 
     public String getNome() {
         return nome;

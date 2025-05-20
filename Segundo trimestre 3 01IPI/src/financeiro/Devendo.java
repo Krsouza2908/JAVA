@@ -15,6 +15,14 @@ public class Devendo {
     private String data;
     private String motivo;
 
+    public void cliente(){
+    System.out.println("João foi o cliente do HB20");
+}
+    
+    public void data(){
+    System.out.println("No dia 21/09/2008");
+}
+    
     public String getCliente() {
         return cliente;
     }

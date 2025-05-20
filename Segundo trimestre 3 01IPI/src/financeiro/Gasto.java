@@ -15,6 +15,13 @@ public class Gasto {
     private int quantidade;
     private float valor;
 
+    public void valor(){
+    System.out.println("Meu custo foi de R$100");
+}
+    public void lugar(){
+    System.out.println("Comprado em Padara Bom Gosto");
+}
+    
     public String getProduto() {
         return produto;
     }

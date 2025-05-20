@@ -14,6 +14,14 @@ public class Produto_01 {
     private String tipo;
     private String empresa;
     private String usabilidae;
+    
+    public void data(){
+    System.out.println("No dia 21/09/2020");
+    }
+    
+    public void empresa(){
+    System.out.println("Pela empresa Auroras Burguer");
+    }
 
     public String getData() {
         return data;

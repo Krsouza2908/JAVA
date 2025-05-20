@@ -14,6 +14,14 @@ public class Produto_04 {
     private String tipo;
     private String empresa;
     private String usabilidae;
+    
+    public void data(){
+    System.out.println("No dia 10/10/2025");
+    }
+    
+    public void empresa(){
+    System.out.println("Pela empresa Resilva");
+    }
 
     public String getData() {
         return data;
