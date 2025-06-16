@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="684.0" prefWidth="937.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="biblioteca.FXMLDocumentController">
+    <children>
+      <Group layoutX="220.0" layoutY="189.0">
+         <children>
+              <Button fx:id="button" layoutX="117.0" layoutY="245.0" onAction="#handleButtonAction" prefHeight="61.0" prefWidth="249.0" text="Logar" />
+            <Label layoutX="209.0" layoutY="115.0" prefHeight="61.0" prefWidth="81.0" text="Senha:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtsenha" layoutY="181.0" prefHeight="46.0" prefWidth="498.0" />
+            <TextField fx:id="txtlogin" layoutY="69.0" prefHeight="46.0" prefWidth="498.0" />
+            <Label layoutX="201.0" prefHeight="61.0" prefWidth="81.0" text="Usuário:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+        <Label fx:id="label" layoutX="126.0" layoutY="146.0" minHeight="16" minWidth="69" />
+    </children>
+</AnchorPane>
